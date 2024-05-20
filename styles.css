@@ -10,6 +10,67 @@
 }
 
 :root {
-    --background-color: ;
-    --deep-blue: ;
+    --baby-blue: #e4edff;
+    --clear-blue: #39c4fa;
+    --darker-blue: #20468f;
+    --white: #ffffff;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+}
+
+.menu {
+    justify-content: end;
+}
+
+.nav-item {
+    padding-right: 50px;
+}
+
+.hero {
+    height: 100vh;
+    background-color: var(--baby-blue);
+    padding-left: 80px;
+    padding-top: 80px;
+    position: relative;
+}
+
+.action-btn {
+    background-color: var(--darker-blue);
+}
+
+.action-btn:hover {
+    background-color: var(--darker-blue);
+}
+
+.history {
+    background-color: var(--white);
+    position: absolute;
+    width: 1100px;
+    height: 350px;
+    z-index: 2;
+    transform: translateY(-200px);
+    margin-left: 80px;
+    border-radius: 30px;
+}
+
+.vis-mis {
+    background-color: var(--darker-blue);
+    padding-left: 80px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.vis-mis h3 {
+    color: var(--white);
+}
+
+.vis-mis p {
+    color: var(--white);
+}
+
+.vis-mis li {
+    color: var(--white);
 }

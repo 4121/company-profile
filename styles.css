@@ -11,9 +11,14 @@
 
 :root {
     --baby-blue: #e4edff;
-    --clear-blue: #39c4fa;
+    --clear-blue: #39c4fb;
     --darker-blue: #20468f;
     --white: #ffffff;
+    --purple: #5135C3;
+    --darker-purple: #261586;
+    --yellow: #FDDF43;
+    --tosca: #3ACBB1;
+
 }
 
 .navbar-brand {
@@ -56,7 +61,7 @@
 }
 
 .vis-mis {
-    background-color: var(--darker-blue);
+    background-color: var(--darker-purple);
     padding-left: 80px;
     padding-top: 200px;
     padding-bottom: 50px;
@@ -73,4 +78,12 @@
 
 .vis-mis li {
     color: var(--white);
+}
+
+.footer {
+    background-color: var(--darker-purple);
+    padding-left: 80px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    position: relative;
 }
